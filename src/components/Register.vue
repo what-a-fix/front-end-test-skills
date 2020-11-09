@@ -5,11 +5,11 @@
             
             <b-input type="email" class="mb-2 mr-sm-2 mb-sm-0" placeholder="Email" name="email"  v-model="user.email"> </b-input>
             <label for="inline-form-input-password"> </label>
-            <b-input type="password" class="mb-2 mr-sm-2 mb-sm-0" placeholder="Password" name="password"  v-model="user.password.first"></b-input>
+            <b-input type="password" class="mb-2 mr-sm-2 mb-sm-0" placeholder="Password" name="password"  v-model="user.password"></b-input>
             <label for="inline-form-input-lastName"> </label>
-            <b-input type="lastname" class="mb-2 mr-sm-2 mb-sm-0" placeholder="Lastname" name="lastName" id="lastName" v-model="user.lastName"></b-input>
+            <b-input type="text" class="mb-2 mr-sm-2 mb-sm-0" placeholder="Lastname" name="lastName" id="lastName" v-model="user.lastName"></b-input>
             <label for="inline-form-input-firstName"> </label>
-            <b-input type="firstname" class="mb-2 mr-sm-2 mb-sm-0" placeholder="FirstName" name="firtsName" id="firstName" v-model="user.firstName"></b-input>
+            <b-input type="text" class="mb-2 mr-sm-2 mb-sm-0" placeholder="FirstName" name="firtsName" id="firstName" v-model="user.firstName"></b-input>
             <button>Sign up</button>
         </b-form>
         </b-container>
@@ -25,11 +25,9 @@ export default {
         return {
             user: {
                 email: '',
-                password: {
-                    first: ''
-                },
-                lastName: "",
-                firstName: "",
+                password: '',
+                lastName: '',
+                firstName: '',
             },
             message: ''
         }
