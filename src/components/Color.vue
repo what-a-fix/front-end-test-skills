@@ -59,7 +59,17 @@
 
 <script>
 export default {
-    
+    data() {
+    return {
+      color: "",
+    };
+  },
+
+  methods: {
+    updateColor(eventData) {
+      this.color = eventData.cssColor;
+    },
+  },
 }
 </script>
 

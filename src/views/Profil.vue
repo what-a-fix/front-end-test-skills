@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <color-vue :color="color" @color-change="updateColor" />
+    <!-- <color-vue :color="color" @color-change="updateColor" /> -->
     <widget-vue />
 
     <router-view />
