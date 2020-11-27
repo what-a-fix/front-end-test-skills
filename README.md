@@ -1,35 +1,30 @@
-# Let's try to do a VueJs app :)
+## Explication
 
-## Out of scope for this project
+J'ai réaliser un projet en vueJs, qui va vous permettre de creer un compte et de vous connecter.
 
-- [x] Backend
+J'ai creer ce projet a fin de participer au recrutement de Whatafix.
 
-## Very light SPA in VueJs. What we expect ?
 
-- [ ] The possibility to create an account
+# Installation :)
 
-- [ ] The possibility to log in / log off
 
-- [ ] As user, I want to be able to customize my space (custom colors, availability to move (drag) some widgets in other place ...)
 
-- [ ] Retrieving my user space at log in, like it was when we log out
+## Project setup
 
-## What should this app look like ?
+* npm install
 
-This part is free. However some elements must be able to be moved, modified, ect... As said before, these modified elements will have to be in the same state if we reconnect.
+## Compiles and hot-reloads for development
 
-Keep it simple as possible, it is not your design skills that are tested but more your capability to write clean and well designed code with best practice in a modern front-end framework. Obviously, it could be nice designed too 😄.
+* npm run serve
 
-## What about backend ?
+## Compiles and minifies for production
 
-Just simulate with your favorite tool, example [MirageJs](https://miragejs.com/docs/getting-started/introduction/)
+* npm run build
 
-## How to submit ?
+## Pour utiliser un backend
 
-To introduce your project, please start by forking this repo and submit a pull request when you think it is OK.
+* Faire un git clone de ce projets. [Backend](https://github.com/Daoudi69/Back-end-Whatafix) !
 
-Please do not forget to write a README other than the one writing by your tools and add it any information you feel is relevant.
 
-## Need extra information ? Questions about the project ? ...
 
-For any further question, contact me by email - 2m@whatafix.com
+
